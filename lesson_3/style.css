@@ -1,0 +1,26 @@
+/* Сброс значений отступов */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.t1 td {
+    border: 1px solid;
+    padding: 10px;
+}
+/* Нечетные */
+.t1 td:nth-child(odd){
+    background-color: #c9E4F6;
+}
+/* Четные */
+.t1 td:nth-child(even){
+    background-color: #84DAF2;
+}
+.a {
+    color: red;
+    text-decoration: none;
+}
+.a:hover{
+    color: yellow;
+    text-decoration: underline;
+}

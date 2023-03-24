@@ -1,0 +1,150 @@
+/* Avatar1 */
+.avatar1 {
+    width: 360px;
+    height: 360px;
+    background-color: #E9ADA1;
+    border-radius: 20px;
+    position: relative;
+}
+.avatar1-body {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 0;
+}
+.avatar1-mouth {
+    position: absolute;
+    left: 38%;
+    right: 38%;
+    top: 58%;
+}
+.avatar1-wink {
+    position: absolute;
+    left: 35%;
+    right: 38%;
+    top: 40%;
+}
+.avatar1-nose {
+    position: absolute;
+    left: 45%;
+    right: 38%;
+    top: 42%;
+}
+.avatar1-hair {
+    position: absolute;
+    right: 2px;
+}
+.avatar1-hoodie {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 0;
+}
+/* Avatar2 */
+.avatar2 {
+    width: 360px;
+    height: 360px;
+    background-color: #3562df;
+    border-radius: 20px;
+    position: relative;
+    left: 33%;
+    top: -357px;
+}
+.avatar2-body {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 15px;
+}
+.avatar2-mouth {
+    position: absolute;
+    left: 38%;
+    right: 38%;
+    top: 46%;
+}
+.avatar2-wink {
+    position: absolute;
+    left: 35%;
+    right: 38%;
+    top: 28%;
+}
+.avatar2-nose {
+    position: absolute;
+    left: 45%;
+    right: 38%;
+    top: 30%;
+}
+.avatar2-hair {
+    position: absolute;
+    right: 2px;
+    top: 5px;
+}
+.avatar2-hoodie {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 15px;
+}
+/* Avatar3 */
+.avatar3 {
+    width: 360px;
+    height: 360px;
+    background-color: #e7e55b;
+    border-radius: 20px;
+    position: relative;
+    left: 66%;
+    top: -714px;
+}
+.avatar3-body {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 0;
+}
+.avatar3-mouth {
+    position: absolute;
+    left: 38%;
+    right: 38%;
+    top: 56%;
+}
+.avatar3-beard-short {
+    position: absolute;
+    left: 88px;
+    right: 2px;
+    top: 49%;
+    z-index: 1;
+}
+.avatar3-wink {
+    position: absolute;
+    left: 35%;
+    right: 38%;
+    top: 38%;
+}
+.avatar3-nose {
+    position: absolute;
+    left: 45%;
+    right: 38%;
+    top: 40%;
+}
+.avatar3-hair {
+    position: absolute;
+    right: 2px;
+    top: 1px;
+}
+.avatar3-hoodie {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    bottom: 0;
+}
+.avatar3-glasses {
+    position: absolute;
+    left: 27%;
+    right: 38%;
+    top: 33%;
+}
+.avatar3-hat {
+    position: absolute;
+    right: 2px;
+    top: 1px;
+}

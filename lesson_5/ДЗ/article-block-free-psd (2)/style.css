@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #3d464c;
+  background-color: bisque;
+  padding: 100px;
+
+}
+.article-item {
+  background-color: #fff;
+  width: 450px;
+  box-shadow: 0 0 20px #999;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* body {
+  background: linear-gradient(#cdc6c8, #b3a4b1);
+} */
+
+.article-tumdnail,
+.article-title,
+.article-description,
+.article-footer {
+  padding: 0 20px;
+}
+.article-tumdnail,
+.article-footer .item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.article-title {
+  padding-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.article-title a {
+  text-decoration: none;
+  color: #3d464c;
+}
+
+.article-description {
+  font-size: 14px;
+  line-height: 22px;
+  padding-bottom: 20px;
+}
+.article-footer {
+  display: flex;
+  background-color: #eaf0f4;
+  border-radius: 0 0 20px 20px;
+  border-top: 1px solid #d8e3eb;
+  border-bottom: 3px solid #d8e3eb;
+}
+.article-footer .item {
+  /* width: 100%; */
+  font-size: 12px;
+  color: #a7b5be;
+
+}
+
+/* .article-footer .item-like {
+  width: auto;
+} */
+.article-footer .item-date {
+  padding-left: 30px;
+  padding-right: 25px;
+  background-image: url(img/clock-icon.png);
+  margin-left: 25px;
+  
+}
+.article-footer .item:not(:last-child) {
+  border-right: 1px solid #d8e3eb;
+}
+.article-footer .item-like {
+  padding-right: 25px;
+background-image: url(img/heart-icon.png);
+padding-left: 30px;
+}
+.article-footer .item-share {
+  padding-left: 25px;
+/* width: 200px; */
+margin-left: auto;
+}
+.article-footer .item-like,
+.article-footer .item-date {
+background-repeat: no-repeat;
+background-position: left center;
+}
+.article-footer .ico {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: -6px;
+}
+.article-footer .ico:first-child {
+  margin-left: 10px;
+}
+.article-footer .ico-fb {
+  background-image: url(img/facebook.png);
+  background-repeat: no-repeat;
+}
+.article-footer .ico-tw {
+  background-image: url(img/twitter.png);
+  background-repeat: no-repeat;
+}
+.article-footer .ico-g {
+  background-image: url(img/google.png);
+  background-repeat: no-repeat;
+}
+.article-footer .ico-add {
+  background-image: url(img/add.png);
+  background-repeat: no-repeat;
+}
+
+/* hover */
+.article-footer .ico-fb:hover {
+  background-image: url(img/facebook-hover.png);
+  background-repeat: no-repeat;
+}
+.article-footer .ico-tw:hover {
+  background-image: url(img/twitter-hover.png);
+  background-repeat: no-repeat;
+}
+.article-footer .ico-g:hover {
+  background-image: url(img/google-hover.png);
+  background-repeat: no-repeat;
+}
+.article-footer .ico-add:hover {
+  background-image: url(img/add-hover.png);
+  background-repeat: no-repeat;
+}
+.article-footer .item-like:hover {
+  padding-right: 25px;
+background-image: url(img/heart-icon-hover.png);
+padding-left: 30px;
+}

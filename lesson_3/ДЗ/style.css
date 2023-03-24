@@ -1,0 +1,58 @@
+/* Сброс значений отступов */
+* {
+margin: 0;
+padding: 0;
+}
+/* ДЛЯ ТАБЛИЦЫ */
+/* Разметка таблицы */
+caption {
+    margin: 10px;
+}
+table {
+    margin-left: 10px;
+}
+table, tr, td {
+    border-collapse: collapse;
+    border: 1px solid;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.t3 {
+    text-align: right;
+}
+.t4 {
+    text-align: left;
+}
+/* Цвет строк */
+thead {
+    background-color: rgb(136, 190, 136);
+}
+tfoot {
+    background-color: rgb(115, 172, 247);
+}
+
+/* Подсветка ячеек */
+.styleTable tr:hover:nth-child(odd) {
+    background-color: red;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ДЛЯ ФОРМЫ */
+form {
+    margin: 20px;
+    background-image: url(https://klike.net/uploads/posts/2019-07/1564314090_3.jpg);
+    background-size: cover;
+}
+form,p {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px;
+}
+form,div {
+    margin: 2px;
+}

@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: antiquewhite;
+    padding: 100px;
+
+}
+.articles {
+    position: relative;
+    background-color:#fff;
+    width: 608px;
+    height: 293px;
+}
+.article-head {
+    width: inherit;
+    height: 180px;
+
+}
+.article-head> img {
+    width: 100%;
+    border-bottom: 3px solid #2b323c;
+}
+.article-head .text {
+    font-size: 32px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 8px;
+    left: 21px;
+}
+
+.article-footer {
+    height: 113px;
+    display: flex;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: right;
+    align-items: stretch;
+    text-align: center;
+
+}
+.article-footer .wheather-mon {
+    width: 40%;
+    background-color: #434a54;
+border-bottom: 3px solid #2b323c;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+font-size: 42px;
+}
+.article-footer .wheather-wed {
+background-color: #48cfad;
+border-bottom: 3px solid #37bc9b;
+}
+.article-footer .wheather-sat {
+    background-color: #5d9cec;
+    border-bottom: 3px solid #4a89dc;
+}
+.article-footer .wheather-sun {
+
+    background-color: #ed5565;
+    border-bottom: 3px solid #da4453;
+
+}
+.article-footer .wheather-wed,
+.article-footer .wheather-sat,
+.article-footer .wheather-sun {
+    width: 20%;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffffa8;
+}
+.wheather-sun .day {
+    border: 0px solid #00000028;
+    background-color: #00000028;
+    border-radius: 20px;
+    width: 60%;
+    padding: 3px;
+}
+.wheather-sat .day {
+    border: 0px solid #00000028;
+    background-color: #00000028;
+    border-radius: 20px;
+    width: 60%;
+    padding: 3px;
+}
+.wheather-wed .day {
+    border: 0px solid #00000028;
+    background-color: #00000028;
+    border-radius: 20px;
+    width: 60%;
+    padding: 3px;
+}
+.wheather-mon .day {
+    border: 0px solid #00000028;
+    background-color: #00000028;
+    border-radius: 7px;
+    width: 60%;
+    padding: 3px;
+    font-size: 12px;
+    color: #ffffffa8;
+}
+.article-footer img {
+    width: 32px;
+}
+.main-weather {
+    display: flex;
+    color: #fff;
+}
+.day {
+    color: #ffffff7c;
+}
+.main-weather img {
+    width: 40px;
+}
+.grad {
+    font-size: 26px;
+}

@@ -1,0 +1,12 @@
+/* Селекторы css */
+/* селектор тегов */
+p {color: green;}
+/* селектор классов */
+.test2 {font-size: 50px; text-decoration: overline;}
+/* селектор id приоритетнее класса, может быть только один на страницу */
+#test3 {font-weight: bold;font-size: 50px;}
+.ul{color: blueviolet; font-size: 20px; list-style: none; font-style: italic;
+}
+
+.first {width: 200px; height: 100px; border: 1px solid; background-color: bisque;
+text-align: center; }

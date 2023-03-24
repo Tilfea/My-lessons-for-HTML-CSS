@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid red;
+    margin: 0;
+
+}
+
+.item {
+    background-color: rgba(250, 235, 215, 0.829);
+    display: inline-block;
+    width: 33.3%;
+    vertical-align: top;
+}
+
+.col-2 > div {
+    width: calc(50% - 4px);
+}
+
+.col-3 > div{
+    width: calc(33.3% - 4px);
+}
+
+.col-4 > div{
+    width: calc(25% - 4px);
+}

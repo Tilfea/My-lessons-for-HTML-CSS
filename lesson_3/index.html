@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <form action="forms/form.html">
+        <input type="text"> <br> <!--Ввод текста в ячейку-->
+        <input type="password"> <br> <!--Ввод пароля точичками в ячейку-->
+        <input type="email"><br>
+        <input type="radio"><br>
+        <input type="checkbox"><br> <!--Чек-бокс-->
+        <textarea></textarea><br> <!--расширяемое поле для ввода-->
+        <input type="file"><br> <!--Выбрать файлы на компе-->
+        <input type="search"><br>
+        <select> <!--Выпадайка-->
+            <option>
+                1 a
+            </option>
+            <option>
+                2 a
+            </option>
+            <option>
+                3 a
+            </option>
+        </select><br>
+        <button type="button">
+            Button
+        </button><br>
+        <input type="submit"><br>
+        <input type="reset"><br>
+    </form>
+    <br>
+    <form action="forms/form.html" name="test" method="get"> <!--Не отправляет файлы!!!-->
+        <input type="text"> <br>
+        <input type="submit"><br>
+    </form>
+    <br>
+    <form action="forms/form.html" name="test" method="post">
+        <input type="text"> <br>
+        <input type="text"> <br>
+        <input type="submit"><br>
+    </form><br>
+
+
+
+
+    <table class="t1">
+        <thead>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>12</td>
+                <td>22</td>
+                <td>32</td>
+
+            </tr>
+            <tr>
+                <td colspan="3">Итого</td>
+            </tr> <!--Только в HTML-->
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9395.336077948183!2d27.7060664!3d53.9346926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfec62f4b9b1%3A0x301594da9354de59!2z0JfQsNC60LvQtdC_0L7Rh9C90LjQuiDQsdCw0Lk!5e0!3m2!1sru!2sby!4v1678213681897!5m2!1sru!2sby"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div>
+        <a class="a" href="">Link</a>
+    </div>
+</body>
+
+</html>

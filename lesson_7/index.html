@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="styleshit" href="style.css">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .nav-vertical {
+            background-color: #ededed;
+            border-bottom: 1px solid;
+            display: inline-block;
+
+        }
+        .nav-vertical li{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border-bottom: 1px solid;
+            position: relative;
+        }
+        .nav-vertical li a {
+            color: black;
+            text-decoration: none;
+            padding: 20px;
+            display: inline-block;
+            white-space: nowrap;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .nav-vertical a:hover {
+            background: #000066;
+            color: #fff;
+        }
+
+        .nav-vertical li > ul {
+            display: none;
+
+        }
+        .nav-vertical li:hover > ul {
+            display: block;
+            position: absolute;
+            background: #ededed;
+            color: #fff;
+            left: 100%;
+            top: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="nav-vertical">
+        <ul>
+            <li><a href="#">Main</a></li>
+            <li>
+                <a href="#">Test</a>
+                <ul>
+                    <li><a href="#">2.1</a></li>
+                    <li>
+                        <a href="#">2.2</a>
+                        <ul>
+                            <li>
+                                <a href="#">2.2.1</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">2.3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
